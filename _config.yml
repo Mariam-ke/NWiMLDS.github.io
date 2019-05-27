@@ -24,12 +24,11 @@ description: Nairobi women in machine learning and Data science
 # List of links in the navigation bar
 navbar-links:
   Schedule: "aboutme"
-  Events:""
+  Events: ""
   Master Class:
     - Fast.ai: ""
     - Master R in DS: ""
     - Python for DS: ""
-  Author's home: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
