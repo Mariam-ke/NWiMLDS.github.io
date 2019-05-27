@@ -23,13 +23,13 @@ description: A virtual proof that name is awesome!
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
-  Schedule: ""
+  Schedule: "aboutme"
+  Events:""
+  Master Class:
+    - Fast.ai: ""
+    - Master R in DS: ""
+    - Python for DS: ""
+  Author's home: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -74,8 +74,8 @@ name: Mariam Haji
 social-network-links:
 #  rss: true
 # email: "someone@example.com"
-  facebook: daattali
-  github: daattali
+# facebook: daattali
+# github: daattali
   twitter: daattali
 #  google-plus: +DeanAttali
   meetup: daattali
@@ -93,13 +93,11 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  google: false
-  linkedin: true
+  meetup: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "nwimlds.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
