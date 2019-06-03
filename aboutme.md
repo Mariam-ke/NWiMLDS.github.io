@@ -70,5 +70,3 @@ use-site-title: true
   {% endif %}
 </ul>
 {% endif %}
-
-

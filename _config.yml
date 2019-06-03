@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://username.github.io"
-baseurl: ""
+url: "https://nwimlds.github.io"
+baseurl: "/nwimlds.github.io"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -17,23 +17,22 @@ baseurl: ""
 title: NWiMLDS
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Nairobi women in machine learning and Data science
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
-  Schedule: ""
+  Schedule: "aboutme"
+  Events: ""
+  Master Class:
+    - Fast.ai: ""
+    - Master R in DS: ""
+    - Python for DS: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-# avatar: "/img/avatar-icon.png"
+ avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -74,11 +73,11 @@ name: Mariam Haji
 social-network-links:
 #  rss: true
 # email: "someone@example.com"
-  facebook: daattali
-  github: daattali
-  twitter: daattali
+# facebook: daattali
+# github: daattali
+  twitter: nwimds
 #  google-plus: +DeanAttali
-  meetup: daattali
+#  meetup: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -93,13 +92,11 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  google: false
-  linkedin: true
+  # meetup: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "nwimlds.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 

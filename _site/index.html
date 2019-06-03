@@ -5,6 +5,26 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+	  
+  <link href='fullcalendar/core/main.css' rel='stylesheet' />
+  <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+
+    <script src='fullcalendar/core/main.js'></script>
+    <script src='fullcalendar/daygrid/main.js'></script>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          plugins: [ 'dayGrid' ]
+        });
+
+        calendar.render();
+      });
+
+    </script>
 
   <title>NWiMLDS</title>
 
@@ -14,7 +34,7 @@
   <meta name="description" content="Nairobi women in machine learning and Data science">
   
 
-  <link rel="alternate" type="application/rss+xml" title="NWiMLDS - A virtual proof that name is awesome!" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="NWiMLDS"/>
 
   
     
@@ -35,8 +55,7 @@
     
  
 
-    <!-- Facebook OpenGraph tags -->
-  
+    <!-- Facebook OpenGraph tags
   
   <meta property="og:title" content="NWiMLDS" />
   
@@ -46,7 +65,7 @@
 
   
   <meta property="og:url" content="http://0.0.0.0:4000/" />
-  <link rel="canonical" href="http://0.0.0.0:4000/" />
+  <link rel="canonical" href="http://0.0.0.0:4000/" />-->
   
 
   
@@ -111,9 +130,9 @@
             <a class="navlinks-parent" href="javascript:void(0)">Master Class</a>
             <div class="navlinks-children">
 
-<a href="http://deanattali.com/beautiful-jekyll/">Fast.Ai</a>
-<a href="http://www.markdowntutorial.com/">Master R in DS</a>
-<a href="https://pages.github.com/">Python for DS</a>
+<a href="">Fast.Ai</a>
+<a href="">Master R in DS</a>
+<a href="">Python for DS</a>
               
             </div>
           </li>
@@ -139,8 +158,6 @@
 
 
 
-
-
 <header class="header-section ">
 
 <div class="intro-header no-img">
@@ -153,9 +170,6 @@
 		    
             <hr class="small">
             <span class="page-subheading">Nairobi women in machine learning and Data science</span>
-			
-		  
-		  
 		  
         </div>
       </div>
@@ -179,7 +193,7 @@
     </div>
   </div>
 </div>
-
+<div id='calendar'></div>
 
 <!--footer-->
 <footer>
@@ -187,7 +201,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links"><li><a href="https://twitter.com/WiMLDS_Nairobi" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                 </span>
                 <span class="sr-only">Twitter</span>
