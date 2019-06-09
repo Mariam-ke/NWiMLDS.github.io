@@ -14,7 +14,7 @@
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: NWiMLDS
+title:NWiMLDS
 
 # Short description of your site
 description: Nairobi women in machine learning and Data science
@@ -23,7 +23,7 @@ description: Nairobi women in machine learning and Data science
 
 # List of links in the navigation bar
 navbar-links:
-  Schedule: "aboutme"
+  Schedule:"aboutme"
   Events: ""
   Master Class:
     - Fast.ai: ""
