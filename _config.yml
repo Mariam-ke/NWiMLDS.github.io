@@ -4,17 +4,17 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-#url: "https://username.github.io"
-#baseurl: ""
+url:"https://nwimlds.github.io"
+baseurl: "https://nwimlds.github.io"
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
+#url:"http://username.github.io/projectname"
 #baseurl: "/projectname"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title:NWiMLDS
+title: NWiMLDS
 
 # Short description of your site
 description: Nairobi women in machine learning and Data science
@@ -63,7 +63,7 @@ footer-link-col: "#404040"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
+author: nwimlds
 name: Mariam Haji
 
 # Select your active Social Network Links.
@@ -156,7 +156,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Kenya/Nairobi"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
