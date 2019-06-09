@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-#url:"https://nwimlds.github.io"
-#baseurl:
+url: "https://nwimlds.github.io"
+baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -30,9 +30,9 @@ navbar-links:
     - Master R in DS: ""
     - Python for DS: ""
 
- Image to show in the navigation bar - image must be a square (width = height)
- Remove this parameter if you don't want an image in the navbar
- avatar: "/img/avatar-icon.png"
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+# avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -64,7 +64,8 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author: nwimlds
-name: nwimlds
+name: Mariam Haji
+
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
