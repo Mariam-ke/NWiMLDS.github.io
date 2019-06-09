@@ -6,7 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 	  
+<<<<<<< HEAD
   
+=======
+  <link href='fullcalendar.0/packages/core/main.css' rel='stylesheet' />
+  <link href='fullcalendar.0/packages/daygrid/main.css' rel='stylesheet' />
+
+    <script src='ffullcalendar.0/packages/core/main.js'></script>
+    <script src='fullcalendar.0/packages/daygrid/main.js'></script>
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          plugins: [ 'dayGrid' ]
+        });
+
+        calendar.render();
+      });
+
+    </script>
+
+>>>>>>> 23ad2058f467ae5f4211041b8d41923aa19a0262
   <title>NWiMLDS</title>
 
   <meta name="author" content="" />
@@ -168,9 +191,10 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <p><strong>Nairobi women in data science and machine learning (NWiMLDS)</strong> is one of the global chapters under Women in Machine Learning and Data Science <a href="http://wimlds.org/">(WiMLDS)</a> a non-profit 501(c)(3) based in New York.</p>
 
-<p>We aim to support and promote informal meetups, study groups and to discuss machine learning and data science in an informal setting with the purpose of building a community around women and gender minorities who are interested in the fields of machine learning and data science.</p>
+<p>We 2aim to support and promote informal meetups, study groups and to discuss machine learning and data science in an informal setting with the purpose of building a community around women and gender minorities who are interested in the fields of machine learning and data science.</p>
 
-	    
+<div id='calendar'></div>
+	    <p>full calendar</p>
     </div>
   </div>
 </div>
