@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NWiMLDS2
+title: NWiMLDS
 subtitle: Nairobi women in machine learning and Data science
 ---
 
